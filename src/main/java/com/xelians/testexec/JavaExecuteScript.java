@@ -65,7 +65,7 @@ public class JavaExecuteScript {
             errFuture = EXECUTOR.submit(new StreamGobbler(process.getErrorStream()));
 
             boolean status = process.waitFor(timeoutScanDelay, TimeUnit.MILLISECONDS);
-            if (!status) process.destroyForcibly();
+            if (!status) process.destroy();
 
             return new ExecutionOutput(process.exitValue(),
                     processBuilder.command(),
