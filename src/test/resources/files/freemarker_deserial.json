@@ -1,0 +1,21 @@
+{
+  "codeListVersions" : { },
+  "archivalAgreement" : "My Super Contract",
+  "archivalAgency" : {
+    "identifier" : "AG001"
+  },
+  "transferringAgency" : {
+    "identifier" : "AG002"
+  },
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "binaryPath" : "file:///home/manu/dev/xelians/sipg/src/integration-test/resources/dummy.pdf",
+    "digestAlgorithm" : "SHA-512",
+    "titles" : [ {
+      "message" : "My Great Title"
+    } ],
+    "descriptions" : [ {
+      "message" : "This is a description"
+    } ]
+  } ]
+}

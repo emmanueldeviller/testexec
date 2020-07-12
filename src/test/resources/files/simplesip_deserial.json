@@ -1,0 +1,272 @@
+{
+  "date" : "2020-02-18T23:11:47.704378",
+  "messageIdentifier" : "MSG001",
+  "comment" : "My Archive Transfer",
+  "signature" : "org.afnor.signformat.PKCS-7",
+  "codeListVersions" : {
+    "fileFormatCodeListVersion" : "Pronom Codes",
+    "replyCodeListVersion" : "Reply Codes"
+  },
+  "archivalAgreement" : "My Archival Agreement",
+  "archivalAgency" : {
+    "identifier" : "AG001",
+    "name" : "My Archive Agency"
+  },
+  "transferringAgency" : {
+    "identifier" : "AG002",
+    "name" : "My Transfer Agency"
+  },
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "physicalId" : "physical-0001",
+    "measure" : 26.0,
+    "digestAlgorithm" : "SHA-512",
+    "logEvents" : [ {
+      "identifier" : "MyID1",
+      "typeCode" : "MyTypeCode",
+      "type" : "MyType",
+      "dateTime" : "2020-02-18T23:11:47.704378",
+      "detail" : "MyDetails",
+      "outcome" : "MyOutcome",
+      "outcomeDetail" : "MyOutcomeDetail",
+      "outcomeDetailMessage" : "MyOutcomeDetailMessage",
+      "detailData" : "MyDetailData"
+    }, {
+      "identifier" : "MyID2",
+      "typeCode" : "MyTypeCode",
+      "type" : "MyType",
+      "dateTime" : "2020-02-18T23:11:47.704378",
+      "detail" : "MyDetails",
+      "outcome" : "MyOutcome",
+      "outcomeDetail" : "MyOutcomeDetail",
+      "outcomeDetailMessage" : "MyOutcomeDetailMessage",
+      "detailData" : "MyDetailData"
+    }, {
+      "identifier" : "MyID3",
+      "typeCode" : "MyTypeCode",
+      "type" : "MyType",
+      "dateTime" : "2020-02-18T23:11:47.704378",
+      "detail" : "MyDetails",
+      "outcome" : "MyOutcome",
+      "outcomeDetail" : "MyOutcomeDetail",
+      "outcomeDetailMessage" : "MyOutcomeDetailMessage",
+      "detailData" : "MyDetailData"
+    } ],
+    "titles" : [ {
+      "message" : "MyTitle1"
+    } ],
+    "custodialItems" : [ {
+      "value" : "My Message1",
+      "when" : "2020-02-18T23:11:47.704378"
+    }, {
+      "value" : "My Message2",
+      "when" : "2020-02-18T23:11:47.704378"
+    } ],
+    "systemId" : "000001",
+    "documentType" : "DOC001",
+    "tags" : [ {
+      "key" : "MyKey11",
+      "value" : "MyValue11"
+    }, {
+      "key" : "MyKey12",
+      "value" : "MyValue12"
+    }, {
+      "value" : "MyValue13"
+    } ],
+    "originatingAgency" : {
+      "identifier" : "AG002",
+      "name" : "My Transfer Agency",
+      "elements" : [ {
+        "name" : "Address",
+        "value" : "Rue de la Jarry - Vincennes"
+      } ]
+    },
+    "submissionAgency" : {
+      "identifier" : "AG001",
+      "name" : "My Archive Agency"
+    },
+    "addressees" : [ {
+      "firstName" : "Marc",
+      "fullName" : "Lavolle",
+      "birthDate" : "2020-02-18",
+      "birthPlace" : {
+        "city" : "NY",
+        "country" : "USA"
+      },
+      "function" : [ "Jedi" ],
+      "activity" : [ "Sword" ]
+    } ],
+    "source" : "My Source1",
+    "archiveUnits" : [ {
+      "@id" : 2,
+      "physicalId" : "physical-0002",
+      "measure" : 236.0,
+      "binaryPath" : "file:///40080bdd-ffad-4564-87d6-cd96c2bdad81/work/helloworld.pdf",
+      "formatId" : "pdf",
+      "formatName" : "Portable Document Format",
+      "signatureStatus" : "No Signature",
+      "digestAlgorithm" : "SHA-512",
+      "fileInfo" : {
+        "filename" : "MyFile.pdf",
+        "creatingApplicationName" : "PdfBox",
+        "lastModified" : "2020-02-18T23:11:47.704378"
+      },
+      "archiveUnitProfile" : "My Archive Unit Profile 2",
+      "titles" : [ {
+        "message" : "MyTitle2"
+      } ],
+      "systemId" : "000002",
+      "documentType" : "DOC002",
+      "tags" : [ {
+        "key" : "MyKey21",
+        "value" : "MyValue21"
+      }, {
+        "key" : "MyKey22",
+        "value" : "MyValue22"
+      }, {
+        "value" : "MyValue23"
+      } ],
+      "authorizedAgents" : [ {
+        "firstName" : "Jacques",
+        "fullName" : "Terner",
+        "birthDate" : "2020-02-18",
+        "birthPlace" : {
+          "city" : "London",
+          "country" : "England"
+        },
+        "function" : [ "BOSS" ],
+        "activity" : [ "Controller" ]
+      } ],
+      "writers" : [ {
+        "firstName" : "Emmanuel",
+        "fullName" : "Deviller",
+        "birthDate" : "2020-02-18",
+        "birthPlace" : {
+          "city" : "Paris",
+          "country" : "France"
+        },
+        "function" : [ "CTO" ],
+        "activity" : [ "Developper" ]
+      }, {
+        "firstName" : "Baptiste",
+        "fullName" : "Nichele",
+        "birthDate" : "2020-02-18",
+        "birthPlace" : {
+          "city" : "Baden-Baden",
+          "country" : "Germany"
+        },
+        "function" : [ "Expert" ],
+        "activity" : [ "Consultant" ]
+      } ],
+      "addressees" : [ {
+        "firstName" : "Marc",
+        "fullName" : "Lavolle",
+        "birthDate" : "2020-02-18",
+        "birthPlace" : {
+          "city" : "NY",
+          "country" : "USA"
+        },
+        "function" : [ "Jedi" ],
+        "activity" : [ "Sword" ]
+      } ],
+      "recipients" : [ {
+        "firstName" : "Tom",
+        "fullName" : "Johns",
+        "birthDate" : "2020-02-18",
+        "birthPlace" : {
+          "city" : "NY",
+          "country" : "USA"
+        },
+        "function" : [ "Guerrier" ],
+        "activity" : [ "Sword" ]
+      } ],
+      "transmitters" : [ {
+        "firstName" : "Jacques",
+        "fullName" : "Garel",
+        "birthDate" : "2020-02-18",
+        "birthPlace" : {
+          "city" : "Madrid",
+          "country" : "Espagne"
+        },
+        "function" : [ "Magicien" ],
+        "activity" : [ "Lance" ]
+      } ],
+      "senders" : [ {
+        "firstName" : "Ben",
+        "fullName" : "Targatien",
+        "birthDate" : "2020-02-18",
+        "birthPlace" : {
+          "city" : "Londres",
+          "country" : "Royaume-Uni"
+        },
+        "function" : [ "Voleur" ],
+        "activity" : [ "Dague" ]
+      } ],
+      "gpsAltitude" : "60",
+      "gpsLatitude" : "48.8534",
+      "gpsLongitude" : "2.3488",
+      "elements" : [ {
+        "name" : "MyExtTag1",
+        "value" : "MyExtValue1",
+        "attributes" : {
+          "attr1" : "val1",
+          "attr12" : "val12"
+        }
+      }, {
+        "name" : "MyExtTag2",
+        "attributes" : {
+          "attr2" : "val2"
+        },
+        "elements" : [ {
+          "name" : "MyExtTag3",
+          "value" : "MyExtValue3"
+        } ]
+      }, "<MyExtTag4>MyValue</MyExtTag4>" ]
+    }, {
+      "@id" : 3,
+      "physicalId" : "physical-0001",
+      "binaryPath" : "file:///40080bdd-ffad-4564-87d6-cd96c2bdad81/work/helloworld.pdf",
+      "formatId" : "pdf",
+      "signatureStatus" : "No Signature",
+      "digestAlgorithm" : "SHA-512",
+      "titles" : [ {
+        "message" : "MyTitle3"
+      } ],
+      "systemId" : "000003",
+      "documentType" : "DOC003",
+      "tags" : [ {
+        "key" : "MyKey11",
+        "value" : "MyValue11"
+      }, {
+        "value" : "MyValue13"
+      } ],
+      "signatures" : [ {
+        "signers" : [ {
+          "firstName" : "Marc",
+          "fullName" : "Lavolle",
+          "birthDate" : "2020-02-18",
+          "birthPlace" : {
+            "city" : "NY",
+            "country" : "USA"
+          },
+          "function" : [ "Jedi" ],
+          "activity" : [ "Sword" ],
+          "signingTime" : "2020-02-18T23:11:47.704378"
+        } ],
+        "validator" : {
+          "firstName" : "Marc",
+          "fullName" : "Lavolle",
+          "birthDate" : "2020-02-18",
+          "birthPlace" : {
+            "city" : "NY",
+            "country" : "USA"
+          },
+          "function" : [ "Jedi" ],
+          "activity" : [ "Sword" ],
+          "validationTime" : "2020-02-18T23:11:47.704378"
+        },
+        "digestAlgorithm" : "SHA-512"
+      } ]
+    } ]
+  } ]
+}

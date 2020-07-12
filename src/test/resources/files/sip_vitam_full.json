@@ -1,0 +1,118 @@
+{
+  "comment" : "Comment",
+  "codeListVersions" : { },
+  "archivalAgreement" : "IC-000001",
+  "archivalAgency" : {
+    "identifier" : "Identifier1",
+    "name" : "My Archive Agency"
+  },
+  "transferringAgency" : {
+    "identifier" : "Identifier2",
+    "name" : "My Transfer Agency"
+  },
+  "archivalProfile" : "PR-000001",
+  "serviceLevel" : "Level1",
+  "acquisitionInformation" : "Don",
+  "legalStatus" : "Public Archive",
+  "originatingAgencyIdentifier" : "Identifier2",
+  "submissionAgencyIdentifier" : "Identifier2",
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "digestAlgorithm" : "SHA-512",
+    "accessRules" : {
+      "rules" : [ {
+        "name" : "AR038",
+        "startDate" : "2020-07-12"
+      } ]
+    },
+    "appraisalRules" : {
+      "rules" : [ {
+        "name" : "P01Y",
+        "startDate" : "2020-07-12"
+      } ],
+      "finalAction" : "Destroy"
+    },
+    "titles" : [ {
+      "message" : "AU de test VITAM niveau 1"
+    } ],
+    "descriptions" : [ {
+      "message" : "Ceci est une description"
+    } ],
+    "custodialItems" : [ {
+      "value" : "Premier Custodial",
+      "when" : "2020-07-12T16:49:36.222672"
+    }, {
+      "value" : "Second Custodial",
+      "when" : "2020-07-12T16:49:36.222672"
+    } ],
+    "systemId" : "SystemId",
+    "documentType" : "DocType",
+    "tags" : [ {
+      "key" : "cle",
+      "value" : "valeur"
+    }, {
+      "value" : "juste de l'indexation"
+    } ],
+    "writers" : [ {
+      "firstName" : "Baptiste",
+      "fullName" : "Nichele",
+      "birthDate" : "1970-01-01",
+      "birthPlace" : {
+        "city" : "Paris",
+        "country" : "France"
+      },
+      "function" : [ "Tech" ],
+      "activity" : [ "Consultant" ]
+    } ],
+    "elements" : [ {
+      "name" : "Extended",
+      "value" : "Ontology extend 1",
+      "attributes" : {
+        "Id" : "attribute1"
+      }
+    }, "<Extended2>Ontology extend 2</Extended2>" ],
+    "archiveUnits" : [ {
+      "@id" : 2,
+      "physicalId" : "physical-0002",
+      "measure" : 34.0,
+      "physicalVersion" : "PhysicalMaster",
+      "digestAlgorithm" : "SHA-512",
+      "titles" : [ {
+        "message" : "AU PhysicalObject"
+      } ]
+    }, {
+      "@id" : 3,
+      "binaryPath" : "file:///home/manu/dev/xelians/sipg/src/integration-test/resources/dummy.pdf",
+      "binaryVersion" : "BinaryMaster",
+      "formatId" : "fmt/19",
+      "formatName" : "PDF",
+      "mimeType" : "application/pdf",
+      "signatureStatus" : "True",
+      "digestAlgorithm" : "SHA-512",
+      "fileInfo" : {
+        "filename" : "FileName.pdf",
+        "creatingApplicationName" : "PdfBox",
+        "lastModified" : "2020-07-12T16:49:36.222672"
+      },
+      "updateOperation" : {
+        "systemId" : "mySystemId"
+      },
+      "titles" : [ {
+        "message" : "AU binaryObject"
+      } ]
+    }, {
+      "@id" : 4,
+      "physicalId" : "physical-0001",
+      "physicalVersion" : "PhysicalMaster",
+      "binaryPath" : "file:///home/manu/dev/xelians/sipg/src/integration-test/resources/dummy.pdf",
+      "digestAlgorithm" : "SHA-512",
+      "updateOperation" : {
+        "metadataName" : "MyTitle",
+        "metadataValue" : "File1234"
+      },
+      "titles" : [ {
+        "message" : "AU GOT binary and physical"
+      } ]
+    } ]
+  } ]
+}

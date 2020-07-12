@@ -1,0 +1,22 @@
+{
+  "codeListVersions" : { },
+  "archivalAgreement" : "My Archival Agreement",
+  "archivalAgency" : {
+    "identifier" : "AG001"
+  },
+  "transferringAgency" : {
+    "identifier" : "AG002"
+  },
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "binaryPath" : "file:///src/integration-test/resources/dummy.pdf",
+    "binaryVersion" : "BinaryMaster_1",
+    "digestAlgorithm" : "SHA-512",
+    "titles" : [ {
+      "message" : "MyTitle"
+    } ],
+    "descriptions" : [ {
+      "message" : "This is a description"
+    } ]
+  } ]
+}

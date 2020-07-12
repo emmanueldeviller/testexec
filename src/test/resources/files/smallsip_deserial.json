@@ -1,0 +1,32 @@
+{
+  "codeListVersions" : { },
+  "archivalAgreement" : "My Archival Agreement",
+  "archivalAgency" : {
+    "identifier" : "AG001",
+    "name" : "My Archive Agency"
+  },
+  "transferringAgency" : {
+    "identifier" : "AG002",
+    "name" : "My Transfer Agency"
+  },
+  "archivalProfile" : "MyArchiveProfile",
+  "serviceLevel" : "Level1",
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "binaryPath" : "file:///src/integration-test/resources/dummy.pdf",
+    "formatId" : "pdf",
+    "digestAlgorithm" : "SHA-512",
+    "updateOperation" : {
+      "metadataName" : "OriginatingSystemId",
+      "metadataValue" : "054399_NOTES_DE_FRAIS"
+    },
+    "titles" : [ {
+      "message" : "MyTitle1"
+    } ],
+    "documentType" : "DOC001",
+    "tags" : [ {
+      "key" : "MyKey1",
+      "value" : "MyValue1"
+    } ]
+  } ]
+}

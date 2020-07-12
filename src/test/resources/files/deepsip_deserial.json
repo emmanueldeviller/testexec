@@ -1,0 +1,527 @@
+{
+  "date" : "2020-02-18T23:11:47.704378",
+  "messageIdentifier" : "MSG001",
+  "comment" : "My Archive Transfer",
+  "codeListVersions" : { },
+  "archivalAgreement" : "My Archival Agreement",
+  "archivalAgency" : {
+    "identifier" : "AG001",
+    "name" : "My Archive Agency"
+  },
+  "transferringAgency" : {
+    "identifier" : "AG002",
+    "name" : "My Transfer Agency"
+  },
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_0.pdf",
+    "formatId" : "pdf",
+    "signatureStatus" : "No Signature",
+    "digestAlgorithm" : "SHA-512",
+    "titles" : [ {
+      "message" : "MyTitle 0"
+    } ],
+    "systemId" : "0",
+    "documentType" : "DOC000",
+    "tags" : [ {
+      "key" : "MyKey1",
+      "value" : "MyValue1_0"
+    } ],
+    "archiveUnits" : [ {
+      "@id" : 2,
+      "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_1.pdf",
+      "formatId" : "pdf",
+      "signatureStatus" : "No Signature",
+      "digestAlgorithm" : "SHA-512",
+      "titles" : [ {
+        "message" : "MyTitle 1"
+      } ],
+      "systemId" : "1",
+      "documentType" : "DOC001",
+      "tags" : [ {
+        "key" : "MyKey1",
+        "value" : "MyValue1_1"
+      } ],
+      "archiveUnits" : [ {
+        "@id" : 3,
+        "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_2.pdf",
+        "formatId" : "pdf",
+        "signatureStatus" : "No Signature",
+        "digestAlgorithm" : "SHA-512",
+        "titles" : [ {
+          "message" : "MyTitle 2"
+        } ],
+        "systemId" : "2",
+        "documentType" : "DOC002",
+        "tags" : [ {
+          "key" : "MyKey1",
+          "value" : "MyValue1_2"
+        } ],
+        "archiveUnits" : [ {
+          "@id" : 4,
+          "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_3.pdf",
+          "formatId" : "pdf",
+          "signatureStatus" : "No Signature",
+          "digestAlgorithm" : "SHA-512",
+          "titles" : [ {
+            "message" : "MyTitle 3"
+          } ],
+          "systemId" : "3",
+          "documentType" : "DOC003",
+          "tags" : [ {
+            "key" : "MyKey1",
+            "value" : "MyValue1_3"
+          } ],
+          "archiveUnits" : [ {
+            "@id" : 5,
+            "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_4.pdf",
+            "formatId" : "pdf",
+            "signatureStatus" : "No Signature",
+            "digestAlgorithm" : "SHA-512",
+            "titles" : [ {
+              "message" : "MyTitle 4"
+            } ],
+            "systemId" : "4",
+            "documentType" : "DOC004",
+            "tags" : [ {
+              "key" : "MyKey1",
+              "value" : "MyValue1_4"
+            } ],
+            "archiveUnits" : [ {
+              "@id" : 6,
+              "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_5.pdf",
+              "formatId" : "pdf",
+              "signatureStatus" : "No Signature",
+              "digestAlgorithm" : "SHA-512",
+              "titles" : [ {
+                "message" : "MyTitle 5"
+              } ],
+              "systemId" : "5",
+              "documentType" : "DOC005",
+              "tags" : [ {
+                "key" : "MyKey1",
+                "value" : "MyValue1_5"
+              } ],
+              "archiveUnits" : [ {
+                "@id" : 7,
+                "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_6.pdf",
+                "formatId" : "pdf",
+                "signatureStatus" : "No Signature",
+                "digestAlgorithm" : "SHA-512",
+                "titles" : [ {
+                  "message" : "MyTitle 6"
+                } ],
+                "systemId" : "6",
+                "documentType" : "DOC006",
+                "tags" : [ {
+                  "key" : "MyKey1",
+                  "value" : "MyValue1_6"
+                } ],
+                "archiveUnits" : [ {
+                  "@id" : 8,
+                  "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_7.pdf",
+                  "formatId" : "pdf",
+                  "signatureStatus" : "No Signature",
+                  "digestAlgorithm" : "SHA-512",
+                  "titles" : [ {
+                    "message" : "MyTitle 7"
+                  } ],
+                  "systemId" : "7",
+                  "documentType" : "DOC007",
+                  "tags" : [ {
+                    "key" : "MyKey1",
+                    "value" : "MyValue1_7"
+                  } ],
+                  "archiveUnits" : [ {
+                    "@id" : 9,
+                    "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_8.pdf",
+                    "formatId" : "pdf",
+                    "signatureStatus" : "No Signature",
+                    "digestAlgorithm" : "SHA-512",
+                    "titles" : [ {
+                      "message" : "MyTitle 8"
+                    } ],
+                    "systemId" : "8",
+                    "documentType" : "DOC008",
+                    "tags" : [ {
+                      "key" : "MyKey1",
+                      "value" : "MyValue1_8"
+                    } ],
+                    "archiveUnits" : [ {
+                      "@id" : 10,
+                      "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_9.pdf",
+                      "formatId" : "pdf",
+                      "signatureStatus" : "No Signature",
+                      "digestAlgorithm" : "SHA-512",
+                      "titles" : [ {
+                        "message" : "MyTitle 9"
+                      } ],
+                      "systemId" : "9",
+                      "documentType" : "DOC009",
+                      "tags" : [ {
+                        "key" : "MyKey1",
+                        "value" : "MyValue1_9"
+                      } ],
+                      "archiveUnits" : [ {
+                        "@id" : 11,
+                        "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_10.pdf",
+                        "formatId" : "pdf",
+                        "signatureStatus" : "No Signature",
+                        "digestAlgorithm" : "SHA-512",
+                        "titles" : [ {
+                          "message" : "MyTitle 10"
+                        } ],
+                        "systemId" : "10",
+                        "documentType" : "DOC0010",
+                        "tags" : [ {
+                          "key" : "MyKey1",
+                          "value" : "MyValue1_10"
+                        } ],
+                        "archiveUnits" : [ {
+                          "@id" : 12,
+                          "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_11.pdf",
+                          "formatId" : "pdf",
+                          "signatureStatus" : "No Signature",
+                          "digestAlgorithm" : "SHA-512",
+                          "titles" : [ {
+                            "message" : "MyTitle 11"
+                          } ],
+                          "systemId" : "11",
+                          "documentType" : "DOC0011",
+                          "tags" : [ {
+                            "key" : "MyKey1",
+                            "value" : "MyValue1_11"
+                          } ],
+                          "archiveUnits" : [ {
+                            "@id" : 13,
+                            "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_12.pdf",
+                            "formatId" : "pdf",
+                            "signatureStatus" : "No Signature",
+                            "digestAlgorithm" : "SHA-512",
+                            "titles" : [ {
+                              "message" : "MyTitle 12"
+                            } ],
+                            "systemId" : "12",
+                            "documentType" : "DOC0012",
+                            "tags" : [ {
+                              "key" : "MyKey1",
+                              "value" : "MyValue1_12"
+                            } ],
+                            "archiveUnits" : [ {
+                              "@id" : 14,
+                              "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_13.pdf",
+                              "formatId" : "pdf",
+                              "signatureStatus" : "No Signature",
+                              "digestAlgorithm" : "SHA-512",
+                              "titles" : [ {
+                                "message" : "MyTitle 13"
+                              } ],
+                              "systemId" : "13",
+                              "documentType" : "DOC0013",
+                              "tags" : [ {
+                                "key" : "MyKey1",
+                                "value" : "MyValue1_13"
+                              } ],
+                              "archiveUnits" : [ {
+                                "@id" : 15,
+                                "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_14.pdf",
+                                "formatId" : "pdf",
+                                "signatureStatus" : "No Signature",
+                                "digestAlgorithm" : "SHA-512",
+                                "titles" : [ {
+                                  "message" : "MyTitle 14"
+                                } ],
+                                "systemId" : "14",
+                                "documentType" : "DOC0014",
+                                "tags" : [ {
+                                  "key" : "MyKey1",
+                                  "value" : "MyValue1_14"
+                                } ],
+                                "archiveUnits" : [ {
+                                  "@id" : 16,
+                                  "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_15.pdf",
+                                  "formatId" : "pdf",
+                                  "signatureStatus" : "No Signature",
+                                  "digestAlgorithm" : "SHA-512",
+                                  "titles" : [ {
+                                    "message" : "MyTitle 15"
+                                  } ],
+                                  "systemId" : "15",
+                                  "documentType" : "DOC0015",
+                                  "tags" : [ {
+                                    "key" : "MyKey1",
+                                    "value" : "MyValue1_15"
+                                  } ],
+                                  "archiveUnits" : [ {
+                                    "@id" : 17,
+                                    "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_16.pdf",
+                                    "formatId" : "pdf",
+                                    "signatureStatus" : "No Signature",
+                                    "digestAlgorithm" : "SHA-512",
+                                    "titles" : [ {
+                                      "message" : "MyTitle 16"
+                                    } ],
+                                    "systemId" : "16",
+                                    "documentType" : "DOC0016",
+                                    "tags" : [ {
+                                      "key" : "MyKey1",
+                                      "value" : "MyValue1_16"
+                                    } ],
+                                    "archiveUnits" : [ {
+                                      "@id" : 18,
+                                      "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_17.pdf",
+                                      "formatId" : "pdf",
+                                      "signatureStatus" : "No Signature",
+                                      "digestAlgorithm" : "SHA-512",
+                                      "titles" : [ {
+                                        "message" : "MyTitle 17"
+                                      } ],
+                                      "systemId" : "17",
+                                      "documentType" : "DOC0017",
+                                      "tags" : [ {
+                                        "key" : "MyKey1",
+                                        "value" : "MyValue1_17"
+                                      } ],
+                                      "archiveUnits" : [ {
+                                        "@id" : 19,
+                                        "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_18.pdf",
+                                        "formatId" : "pdf",
+                                        "signatureStatus" : "No Signature",
+                                        "digestAlgorithm" : "SHA-512",
+                                        "titles" : [ {
+                                          "message" : "MyTitle 18"
+                                        } ],
+                                        "systemId" : "18",
+                                        "documentType" : "DOC0018",
+                                        "tags" : [ {
+                                          "key" : "MyKey1",
+                                          "value" : "MyValue1_18"
+                                        } ],
+                                        "archiveUnits" : [ {
+                                          "@id" : 20,
+                                          "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_19.pdf",
+                                          "formatId" : "pdf",
+                                          "signatureStatus" : "No Signature",
+                                          "digestAlgorithm" : "SHA-512",
+                                          "titles" : [ {
+                                            "message" : "MyTitle 19"
+                                          } ],
+                                          "systemId" : "19",
+                                          "documentType" : "DOC0019",
+                                          "tags" : [ {
+                                            "key" : "MyKey1",
+                                            "value" : "MyValue1_19"
+                                          } ],
+                                          "archiveUnits" : [ {
+                                            "@id" : 21,
+                                            "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_20.pdf",
+                                            "formatId" : "pdf",
+                                            "signatureStatus" : "No Signature",
+                                            "digestAlgorithm" : "SHA-512",
+                                            "titles" : [ {
+                                              "message" : "MyTitle 20"
+                                            } ],
+                                            "systemId" : "20",
+                                            "documentType" : "DOC0020",
+                                            "tags" : [ {
+                                              "key" : "MyKey1",
+                                              "value" : "MyValue1_20"
+                                            } ],
+                                            "archiveUnits" : [ {
+                                              "@id" : 22,
+                                              "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_21.pdf",
+                                              "formatId" : "pdf",
+                                              "signatureStatus" : "No Signature",
+                                              "digestAlgorithm" : "SHA-512",
+                                              "titles" : [ {
+                                                "message" : "MyTitle 21"
+                                              } ],
+                                              "systemId" : "21",
+                                              "documentType" : "DOC0021",
+                                              "tags" : [ {
+                                                "key" : "MyKey1",
+                                                "value" : "MyValue1_21"
+                                              } ],
+                                              "archiveUnits" : [ {
+                                                "@id" : 23,
+                                                "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_22.pdf",
+                                                "formatId" : "pdf",
+                                                "signatureStatus" : "No Signature",
+                                                "digestAlgorithm" : "SHA-512",
+                                                "titles" : [ {
+                                                  "message" : "MyTitle 22"
+                                                } ],
+                                                "systemId" : "22",
+                                                "documentType" : "DOC0022",
+                                                "tags" : [ {
+                                                  "key" : "MyKey1",
+                                                  "value" : "MyValue1_22"
+                                                } ],
+                                                "archiveUnits" : [ {
+                                                  "@id" : 24,
+                                                  "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_23.pdf",
+                                                  "formatId" : "pdf",
+                                                  "signatureStatus" : "No Signature",
+                                                  "digestAlgorithm" : "SHA-512",
+                                                  "titles" : [ {
+                                                    "message" : "MyTitle 23"
+                                                  } ],
+                                                  "systemId" : "23",
+                                                  "documentType" : "DOC0023",
+                                                  "tags" : [ {
+                                                    "key" : "MyKey1",
+                                                    "value" : "MyValue1_23"
+                                                  } ],
+                                                  "archiveUnits" : [ {
+                                                    "@id" : 25,
+                                                    "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_24.pdf",
+                                                    "formatId" : "pdf",
+                                                    "signatureStatus" : "No Signature",
+                                                    "digestAlgorithm" : "SHA-512",
+                                                    "titles" : [ {
+                                                      "message" : "MyTitle 24"
+                                                    } ],
+                                                    "systemId" : "24",
+                                                    "documentType" : "DOC0024",
+                                                    "tags" : [ {
+                                                      "key" : "MyKey1",
+                                                      "value" : "MyValue1_24"
+                                                    } ],
+                                                    "archiveUnits" : [ {
+                                                      "@id" : 26,
+                                                      "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_25.pdf",
+                                                      "formatId" : "pdf",
+                                                      "signatureStatus" : "No Signature",
+                                                      "digestAlgorithm" : "SHA-512",
+                                                      "titles" : [ {
+                                                        "message" : "MyTitle 25"
+                                                      } ],
+                                                      "systemId" : "25",
+                                                      "documentType" : "DOC0025",
+                                                      "tags" : [ {
+                                                        "key" : "MyKey1",
+                                                        "value" : "MyValue1_25"
+                                                      } ],
+                                                      "archiveUnits" : [ {
+                                                        "@id" : 27,
+                                                        "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_26.pdf",
+                                                        "formatId" : "pdf",
+                                                        "signatureStatus" : "No Signature",
+                                                        "digestAlgorithm" : "SHA-512",
+                                                        "titles" : [ {
+                                                          "message" : "MyTitle 26"
+                                                        } ],
+                                                        "systemId" : "26",
+                                                        "documentType" : "DOC0026",
+                                                        "tags" : [ {
+                                                          "key" : "MyKey1",
+                                                          "value" : "MyValue1_26"
+                                                        } ],
+                                                        "archiveUnits" : [ {
+                                                          "@id" : 28,
+                                                          "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_27.pdf",
+                                                          "formatId" : "pdf",
+                                                          "signatureStatus" : "No Signature",
+                                                          "digestAlgorithm" : "SHA-512",
+                                                          "titles" : [ {
+                                                            "message" : "MyTitle 27"
+                                                          } ],
+                                                          "systemId" : "27",
+                                                          "documentType" : "DOC0027",
+                                                          "tags" : [ {
+                                                            "key" : "MyKey1",
+                                                            "value" : "MyValue1_27"
+                                                          } ],
+                                                          "archiveUnits" : [ {
+                                                            "@id" : 29,
+                                                            "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_28.pdf",
+                                                            "formatId" : "pdf",
+                                                            "signatureStatus" : "No Signature",
+                                                            "digestAlgorithm" : "SHA-512",
+                                                            "titles" : [ {
+                                                              "message" : "MyTitle 28"
+                                                            } ],
+                                                            "systemId" : "28",
+                                                            "documentType" : "DOC0028",
+                                                            "tags" : [ {
+                                                              "key" : "MyKey1",
+                                                              "value" : "MyValue1_28"
+                                                            } ],
+                                                            "archiveUnits" : [ {
+                                                              "@id" : 30,
+                                                              "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_29.pdf",
+                                                              "formatId" : "pdf",
+                                                              "signatureStatus" : "No Signature",
+                                                              "digestAlgorithm" : "SHA-512",
+                                                              "titles" : [ {
+                                                                "message" : "MyTitle 29"
+                                                              } ],
+                                                              "systemId" : "29",
+                                                              "documentType" : "DOC0029",
+                                                              "tags" : [ {
+                                                                "key" : "MyKey1",
+                                                                "value" : "MyValue1_29"
+                                                              } ],
+                                                              "archiveUnits" : [ {
+                                                                "@id" : 31,
+                                                                "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_30.pdf",
+                                                                "formatId" : "pdf",
+                                                                "signatureStatus" : "No Signature",
+                                                                "digestAlgorithm" : "SHA-512",
+                                                                "titles" : [ {
+                                                                  "message" : "MyTitle 30"
+                                                                } ],
+                                                                "systemId" : "30",
+                                                                "documentType" : "DOC0030",
+                                                                "tags" : [ {
+                                                                  "key" : "MyKey1",
+                                                                  "value" : "MyValue1_30"
+                                                                } ],
+                                                                "archiveUnits" : [ {
+                                                                  "@id" : 32,
+                                                                  "binaryPath" : "file:///bb3b6614-ed7f-4f48-9494-eae019a3600a/work/helloworld_31.pdf",
+                                                                  "formatId" : "pdf",
+                                                                  "signatureStatus" : "No Signature",
+                                                                  "digestAlgorithm" : "SHA-512",
+                                                                  "titles" : [ {
+                                                                    "message" : "MyTitle 31"
+                                                                  } ],
+                                                                  "systemId" : "31",
+                                                                  "documentType" : "DOC0031",
+                                                                  "tags" : [ {
+                                                                    "key" : "MyKey1",
+                                                                    "value" : "MyValue1_31"
+                                                                  } ]
+                                                                } ]
+                                                              } ]
+                                                            } ]
+                                                          } ]
+                                                        } ]
+                                                      } ]
+                                                    } ]
+                                                  } ]
+                                                } ]
+                                              } ]
+                                            } ]
+                                          } ]
+                                        } ]
+                                      } ]
+                                    } ]
+                                  } ]
+                                } ]
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ]
+                    } ]
+                  } ]
+                } ]
+              } ]
+            } ]
+          } ]
+        } ]
+      } ]
+    } ]
+  } ]
+}

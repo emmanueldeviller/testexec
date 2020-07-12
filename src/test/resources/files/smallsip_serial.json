@@ -1,0 +1,28 @@
+{
+  "codeListVersions" : { },
+  "archivalAgreement" : "My Archival Agreement",
+  "archivalAgency" : {
+    "identifier" : "AG001",
+    "name" : "My Archive Agency"
+  },
+  "transferringAgency" : {
+    "identifier" : "AG002",
+    "name" : "My Transfer Agency"
+  },
+  "archivalProfile" : "MyArchivalProfile",
+  "serviceLevel" : "Level1",
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "binaryPath" : "file:///home/manu/dev/xelians/sipg/src/integration-test/resources/dummy.pdf",
+    "formatId" : "pdf",
+    "digestAlgorithm" : "SHA-512",
+    "titles" : [ {
+      "message" : "MyTitle1"
+    } ],
+    "documentType" : "DOC001",
+    "tags" : [ {
+      "key" : "MyKey1",
+      "value" : "MyValue1"
+    } ]
+  } ]
+}

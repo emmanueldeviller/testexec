@@ -1,0 +1,399 @@
+{
+  "date" : "2020-07-12T16:49:35.917713",
+  "messageIdentifier" : "MSG001",
+  "comment" : "My Archive Transfer",
+  "signature" : "org.afnor.signformat.PKCS-7",
+  "codeListVersions" : {
+    "fileFormatCodeListVersion" : "Pronom Codes",
+    "replyCodeListVersion" : "Reply Codes"
+  },
+  "archivalAgreement" : "My Archival Agreement",
+  "archivalAgency" : {
+    "identifier" : "AG001",
+    "name" : "My Archive Agency"
+  },
+  "transferringAgency" : {
+    "identifier" : "AG002",
+    "name" : "My Transfer Agency"
+  },
+  "originatingAgencyIdentifier" : "OriginatingAgencyId",
+  "submissionAgencyIdentifier" : "SubmissionAgencyId",
+  "archiveUnits" : [ {
+    "@id" : 1,
+    "physicalId" : "physical-0001",
+    "measure" : 26.0,
+    "digestAlgorithm" : "SHA-512",
+    "accessRules" : {
+      "rules" : [ {
+        "name" : "AccessRule",
+        "startDate" : "2020-07-12"
+      } ]
+    },
+    "appraisalRules" : {
+      "rules" : [ {
+        "name" : "RuleName a1",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName a2",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName a3",
+        "startDate" : "2020-07-12"
+      } ],
+      "preventRuleNames" : [ "RuleName a4", "RuleName a5" ],
+      "finalAction" : "Destroy"
+    },
+    "disseminationRules" : {
+      "rules" : [ {
+        "name" : "RuleName d1",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName d2",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName d3",
+        "startDate" : "2020-07-12"
+      } ],
+      "preventRuleNames" : [ "RuleName d4", "RuleName d5" ]
+    },
+    "reuseRules" : {
+      "rules" : [ {
+        "name" : "RuleName r1",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName r2",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName r3",
+        "startDate" : "2020-07-12"
+      } ],
+      "preventRuleNames" : [ "RuleName r4", "RuleName r5" ]
+    },
+    "storageRules" : {
+      "rules" : [ {
+        "name" : "RuleName s1",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName s2",
+        "startDate" : "2020-07-12"
+      }, {
+        "name" : "RuleName s3",
+        "startDate" : "2020-07-12"
+      } ],
+      "preventRuleNames" : [ "RuleName s4", "RuleName s5" ],
+      "finalAction" : "Copy"
+    },
+    "logEvents" : [ {
+      "identifier" : "MyIdentifier1",
+      "typeCode" : "MyTypeCode1",
+      "type" : "MyType1",
+      "dateTime" : "2020-07-12T16:49:35.917713",
+      "detail" : "MyDetails1",
+      "outcome" : "MyOutcome1",
+      "outcomeDetail" : "MyOutcomeDetail1",
+      "detailData" : "MyDetailsData1"
+    }, {
+      "identifier" : "MyIdentifier2",
+      "typeCode" : "MyTypeCode2",
+      "type" : "MyType2",
+      "dateTime" : "2020-07-12T16:49:35.917713",
+      "detail" : "MyDetails2",
+      "outcome" : "MyOutcome2",
+      "outcomeDetail" : "MyOutcomeDetail2",
+      "detailData" : "MyDetailsData2"
+    }, {
+      "identifier" : "MyIdentifier3",
+      "typeCode" : "MyTypeCode3",
+      "type" : "MyType3",
+      "dateTime" : "2020-07-12T16:49:35.917713",
+      "detail" : "MyDetails3",
+      "outcome" : "MyOutcome3",
+      "outcomeDetail" : "MyOutcomeDetail3",
+      "detailData" : "MyDetailsData3"
+    } ],
+    "titles" : [ {
+      "message" : "MyTitle1"
+    } ],
+    "custodialItems" : [ {
+      "value" : "My Message1",
+      "when" : "2020-07-12T16:49:35.917713"
+    }, {
+      "value" : "My Message2",
+      "when" : "2020-07-12T16:49:35.917713"
+    } ],
+    "systemId" : "000001",
+    "documentType" : "DOC001",
+    "tags" : [ {
+      "key" : "MyKey11",
+      "value" : "MyValue11"
+    }, {
+      "key" : "MyKey12",
+      "value" : "MyValue12"
+    }, {
+      "value" : "MyValue13"
+    } ],
+    "originatingAgency" : {
+      "identifier" : "AG002",
+      "name" : "My Transfer Agency",
+      "elements" : [ {
+        "name" : "Address",
+        "value" : "Rue de la Jarry - Vincennes"
+      } ]
+    },
+    "submissionAgency" : {
+      "identifier" : "AG001",
+      "name" : "My Archive Agency"
+    },
+    "addressees" : [ {
+      "firstName" : "Marc",
+      "fullName" : "Lavolle",
+      "birthDate" : "2020-07-12",
+      "birthPlace" : {
+        "geogname" : "GEOName",
+        "address" : "19 Holliday Street",
+        "postalCode" : "94300",
+        "city" : "NY",
+        "region" : "Oregon",
+        "country" : "USA"
+      },
+      "function" : [ "Jedi" ],
+      "activity" : [ "Sword" ]
+    } ],
+    "source" : "My Source1",
+    "archiveUnits" : [ {
+      "@id" : 2,
+      "physicalId" : "physical-0002",
+      "measure" : 236.0,
+      "binaryPath" : "jimfs://2427ce04-97ff-43bc-90d7-0fd555a7495c/work/helloworld_1.pdf",
+      "formatId" : "pdf",
+      "formatName" : "Portable Document Format",
+      "signatureStatus" : "No Signature",
+      "digestAlgorithm" : "SHA-512",
+      "fileInfo" : {
+        "filename" : "MyFile.pdf",
+        "creatingApplicationName" : "PdfBox",
+        "lastModified" : "2020-07-12T16:49:35.917713"
+      },
+      "archiveUnitProfile" : "My Archive Unit Profile 2",
+      "accessRules" : {
+        "rules" : [ {
+          "name" : "RuleName 1",
+          "startDate" : "2020-07-12"
+        }, {
+          "name" : "RuleName 2",
+          "startDate" : "2020-07-12"
+        }, {
+          "name" : "RuleName 3",
+          "startDate" : "2020-07-12"
+        } ],
+        "preventRuleNames" : [ "RuleName 4", "RuleName 5" ]
+      },
+      "classificationRules" : {
+        "rules" : [ {
+          "name" : "RuleName 1",
+          "startDate" : "2020-07-12"
+        }, {
+          "name" : "RuleName 2",
+          "startDate" : "2020-07-12"
+        }, {
+          "name" : "RuleName 3",
+          "startDate" : "2020-07-12"
+        } ],
+        "preventRuleNames" : [ "RuleName 4", "RuleName 5" ],
+        "classificationAudience" : "EveryOne",
+        "classificationLevel" : "TOP SECRET",
+        "classificationOwner" : "Captain Deviller",
+        "classificationReassessingDate" : "2020-07-12"
+      },
+      "titles" : [ {
+        "message" : "MyTitle2"
+      } ],
+      "systemId" : "000002",
+      "documentType" : "DOC002",
+      "tags" : [ {
+        "key" : "MyKey21",
+        "value" : "MyValue21"
+      }, {
+        "key" : "MyKey22",
+        "value" : "MyValue22"
+      }, {
+        "value" : "MyValue23"
+      } ],
+      "authorizedAgents" : [ {
+        "firstName" : "Jacques",
+        "birthName" : "Jacky Ho",
+        "fullName" : "Terner",
+        "givenName" : "Joe",
+        "gender" : "Male",
+        "birthDate" : "2020-07-12",
+        "birthPlace" : {
+          "geogname" : "LND",
+          "address" : "MyAddress",
+          "postalCode" : "98765",
+          "city" : "London",
+          "region" : "Sussex",
+          "country" : "England"
+        },
+        "deathDate" : "2020-07-12",
+        "deathPlace" : {
+          "geogname" : "PRS",
+          "address" : "MyAddress",
+          "postalCode" : "75012",
+          "city" : "Paris",
+          "region" : "Seine",
+          "country" : "France"
+        },
+        "nationality" : [ "French" ],
+        "identifier" : [ "JH" ],
+        "function" : [ "BOSS" ],
+        "activity" : [ "Controller" ],
+        "position" : [ "High" ],
+        "role" : [ "SmallBoss" ],
+        "mandate" : [ "Mandataire" ]
+      } ],
+      "writers" : [ {
+        "firstName" : "Emmanuel",
+        "fullName" : "Deviller",
+        "birthDate" : "2020-07-12",
+        "birthPlace" : {
+          "city" : "Paris",
+          "country" : "France"
+        },
+        "function" : [ "CTO" ],
+        "activity" : [ "Developper" ]
+      }, {
+        "firstName" : "Baptiste",
+        "fullName" : "Nichele",
+        "birthDate" : "2020-07-12",
+        "birthPlace" : {
+          "city" : "Baden-Baden",
+          "country" : "Germany"
+        },
+        "function" : [ "Expert" ],
+        "activity" : [ "Consultant" ]
+      } ],
+      "addressees" : [ {
+        "firstName" : "Marc",
+        "fullName" : "Lavolle",
+        "birthDate" : "2020-07-12",
+        "birthPlace" : {
+          "city" : "NY",
+          "country" : "USA"
+        },
+        "function" : [ "Jedi" ],
+        "activity" : [ "Sword" ]
+      } ],
+      "recipients" : [ {
+        "firstName" : "Tom",
+        "fullName" : "Johns",
+        "birthDate" : "2020-07-12",
+        "birthPlace" : {
+          "city" : "NY",
+          "country" : "USA"
+        },
+        "function" : [ "Guerrier" ],
+        "activity" : [ "Sword" ]
+      } ],
+      "transmitters" : [ {
+        "firstName" : "Jacques",
+        "fullName" : "Garel",
+        "birthDate" : "2020-07-12",
+        "birthPlace" : {
+          "city" : "Madrid",
+          "country" : "Espagne"
+        },
+        "function" : [ "Magicien" ],
+        "activity" : [ "Lance" ]
+      } ],
+      "senders" : [ {
+        "firstName" : "Ben",
+        "fullName" : "Targatien",
+        "birthDate" : "2020-07-12",
+        "birthPlace" : {
+          "city" : "Londres",
+          "country" : "Royaume-Uni"
+        },
+        "function" : [ "Voleur" ],
+        "activity" : [ "Dague" ]
+      } ],
+      "gpsAltitude" : "60",
+      "gpsLatitude" : "48.8534",
+      "gpsLongitude" : "2.3488",
+      "elements" : [ {
+        "name" : "MyExtTag1",
+        "value" : "MyExtValue1",
+        "attributes" : {
+          "attr1" : "val1",
+          "attr12" : "val12"
+        }
+      }, {
+        "name" : "MyExtTag2",
+        "attributes" : {
+          "attr2" : "val2"
+        },
+        "elements" : [ {
+          "name" : "MyExtTag3",
+          "value" : "MyExtValue3"
+        } ]
+      }, "<MyExtTag4>MyValue</MyExtTag4>" ]
+    }, {
+      "@id" : 3,
+      "physicalId" : "physical-0001",
+      "binaryPath" : "jimfs://2427ce04-97ff-43bc-90d7-0fd555a7495c/work/helloworld_2.pdf",
+      "formatId" : "pdf",
+      "signatureStatus" : "No Signature",
+      "digestAlgorithm" : "SHA-512",
+      "appraisalRules" : {
+        "rules" : [ {
+          "name" : "RuleName 31",
+          "startDate" : "2020-07-12"
+        }, {
+          "name" : "RuleName 32",
+          "startDate" : "2020-07-12"
+        } ],
+        "preventInheritance" : true,
+        "finalAction" : "Keep"
+      },
+      "titles" : [ {
+        "message" : "MyTitle3"
+      } ],
+      "systemId" : "000003",
+      "documentType" : "DOC003",
+      "tags" : [ {
+        "key" : "MyKey11",
+        "value" : "MyValue11"
+      }, {
+        "value" : "MyValue13"
+      } ],
+      "signatures" : [ {
+        "signers" : [ {
+          "firstName" : "Marc",
+          "fullName" : "Lavolle",
+          "birthDate" : "2020-07-12",
+          "birthPlace" : {
+            "city" : "NY",
+            "country" : "USA"
+          },
+          "function" : [ "Jedi" ],
+          "activity" : [ "Sword" ],
+          "mandate" : [ "Signer" ],
+          "signingTime" : "2020-07-12T16:49:35.917713"
+        } ],
+        "validator" : {
+          "firstName" : "Marc",
+          "fullName" : "Lavolle",
+          "birthDate" : "2020-07-12",
+          "birthPlace" : {
+            "city" : "NY",
+            "country" : "USA"
+          },
+          "function" : [ "Jedi" ],
+          "activity" : [ "Sword" ],
+          "mandate" : [ "Validator" ],
+          "validationTime" : "2020-07-12T16:49:35.917713"
+        },
+        "digestAlgorithm" : "SHA-512"
+      } ]
+    } ]
+  } ]
+}
